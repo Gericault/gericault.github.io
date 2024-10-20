@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linux quick start reference
+title: Navigating the Linux Command Line Interface (CLI)
 date: 2024-10-06 18:30:00 +0930
 ---
 ### A quick crash course to using the Linux command line interface (CLI)
