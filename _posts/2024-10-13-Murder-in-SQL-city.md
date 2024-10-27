@@ -8,8 +8,6 @@ Knight lab from the Northwestern University in the USA has a great web app that 
 
 What follows is a walkthrough and explanation of solving the murder mystery of SQL city; this activity can be found at;
 
-<a href="https://mystery.knightlab.com/">SQL Murder Mystery</a>
-
 **Some useful resources to help learn SQL:**
 
 <a href="https://selectstarsql.com/">Select star SQL</a>
