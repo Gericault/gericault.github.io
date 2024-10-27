@@ -341,10 +341,14 @@ Notice that methods (dot notation) are used to utilize the built in functions of
 **open()** - returns a file object.
 open() takes 2 parameters, filename and mode.
 there are 4 modes; 
-"r" - read - returns error if file does not exist
-"a" - append - creates file if it does not exist
-"w" - write - creates file if it does not exist
-"x" - create - returns error if the file exists
+
+**"r"** - read - returns error if file does not exist
+
+**"a"** - append - creates file if it does not exist
+
+**"w"** - write - creates file if it does not exist
+
+**"x"** - create - returns error if the file exists
 
 files can be read as binary "b" or text "t".
 
@@ -357,7 +361,9 @@ file = open("accesslog.txt",  "r")
 If the file is located in a different location than the python program, you will have to specify the full pathname.
 
 **.read()** - returns the file content
+
 **.write()** - writes the specified string to the file
+
 **.close()** - closes the file when you are finished with it, this is best practice when you are done with the file.
 
 Another way to handle the opening and closing of a file is to encase it inside a with condition;
@@ -396,7 +402,7 @@ r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
 ```
 This is very cryptic, some syntax is explained below;
 
-**r** - used to prefix a regex string where you want to ignore \ (backslash) normally used in python; this is to prevent you having to write \\\\ (four backlashes) to match a single backslash since the regex version is \\ but each backslash must be escaped with another backslash per Python's usage of the escape character.
+**r** - used to prefix a regex string where you want to ignore \ (backslash) normally used in python; this is to prevent you having to write \\\\\\\\ (four backlashes) to match a single backslash since the regex version is \\\\ but each backslash must be escaped with another backslash per Python's usage of the escape character.
 
 **^** - starts with
 
