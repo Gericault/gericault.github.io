@@ -4,12 +4,13 @@ title: Introduction to Python
 date: 2024-10-20 15:30:00 +0930
 ---
 ## What is Python?
-Python is an interpreted language, no compiler, instead program is run through an intepreter.
-Is very widely used, simple and lots of documentation and help available.
+Python is a simple, widely-used programming language that doesn't require compilation. It's executed directly by an interpreter, making it easy to learn and use. Python has extensive documentation and a large community for support.
 
 Before reading I recommend having basic programming language knowledge.
 
-Python is simple and easier to write code in compared to low level languages, trade-off is because things like memory management are handled for you, there is a cost under the hood - this may impact performance depending on code as this code is still run when you call built-in functions.
+Compared to low level languages, Python is simpler and easier to write code in.
+
+The trade-off is because things like memory management are handled for you, there is a cost under the hood - this may impact performance depending on code as this code is still run when you call built-in functions.
 Although in the modern age this is rarely a consideration unless programming with very limited hardware.
 
 <a href="https://docs.python.org/3/library/functions.html">Python documentation</a>
