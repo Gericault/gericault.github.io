@@ -6,7 +6,7 @@ date: 2024-10-13 15:30:00 +0930
 ### A way to practice SQL
 Knight lab from the Northwestern University in the USA has a great web app that can be used to practice your SQL skills in a fun and engaging manner.
 
-What follows is a walkthrough and explanation of solving the murder mystery of SQL city; this activity can be found at;
+What follows is a walkthrough and explanation of solving the murder mystery of SQL city; this activity can be found at <a href="https://mystery.knightlab.com">https://mystery.knightlab.com/</a>
 
 **Some useful resources to help learn SQL:**
 
